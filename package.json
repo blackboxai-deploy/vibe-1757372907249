@@ -4,9 +4,9 @@
   "private": true,
   "description": "Bot automatizado para recopilar videos de Telegram y eliminar duplicados",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "bot": "node dist/bot/index.js",
     "postinstall": "mkdir -p data/videos data/temp data/thumbnails"
